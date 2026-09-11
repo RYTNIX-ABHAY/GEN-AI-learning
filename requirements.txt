@@ -1,0 +1,15 @@
+#langChain core
+langchain 
+langchain-core
+
+#OpenAi integration
+Langchain-openai
+openai
+
+#hf int
+langchain-huggingface
+transformers
+huggingface-hub
+
+#env var mng
+python-dotenv

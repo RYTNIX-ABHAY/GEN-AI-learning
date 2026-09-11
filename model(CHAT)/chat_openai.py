@@ -1,0 +1,9 @@
+from langchain_openai import ChatOpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
+
+model = ChatOpenAI(model="gpt-5.6-luna")
+
+r = model.invoke("What is the capital of India?")
+print(r.content)
