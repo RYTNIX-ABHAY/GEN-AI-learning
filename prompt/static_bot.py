@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 llm = HuggingFaceEndpoint(
-    #repo_id="meta-llama/Llama-3.1-8B-Instruct",
-    repo_id="zai-org/GLM-5.3",
+    repo_id="meta-llama/Llama-3.1-8B-Instruct",
+   # repo_id="zai-org/GLM-5.3",
     task="text-generation"
 
 )

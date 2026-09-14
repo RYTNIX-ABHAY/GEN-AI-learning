@@ -1,0 +1,8 @@
+In structure Output we have two options :
+LLM which support Str O/P : CLosed Source !
+and LLM which doesn't Supports StrO/P : HUggingFace (models)!!
+
+
+for support we directly use the With_Strucured_Output in the model and provide the schema as well like JSON format!!
+
+for not supporting we use the output parser from langchain (Output parser) , some of them are:  stroutput , Jsonoutput , structured output ......
